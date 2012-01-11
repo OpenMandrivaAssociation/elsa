@@ -43,8 +43,6 @@ NOCONFIGURE=yes ./autogen.sh
 rm -rf %{buildroot}
 %makeinstall_std
 
-%find_lang %{name}
-
 %files 
 %config(noreplace) %{_sysconfdir}/pam.d/elsa
 %config(noreplace) %{_sysconfdir}/elsa.conf
