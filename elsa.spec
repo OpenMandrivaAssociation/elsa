@@ -22,6 +22,7 @@ Source0:	%{name}-%{version}.%{svnrev}.tar.xz
 
 BuildRequires:	edje
 BuildRequires:	embryo
+BuildRequires:	evas
 BuildRequires:	pam-devel
 BuildRequires:	pkgconfig(elementary)
 
