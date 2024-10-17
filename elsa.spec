@@ -17,7 +17,7 @@ Version:	0.0.4
 Release:	0.%{svnrev}.1
 License:	GPLv3
 Group:		System/Configuration/Other
-URL:		http://enlightenment.org/
+URL:		https://enlightenment.org/
 Source0:	%{name}-%{version}.%{svnrev}.tar.xz
 
 BuildRequires:	edje
